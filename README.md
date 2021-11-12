@@ -1,5 +1,5 @@
 ## Install Tools
-Download and install Node.js lastes LTS version
+Download and install Node.js latest LTS version
 https://nodejs.org/en/
 
 ## Getting Started
@@ -34,4 +34,4 @@ To learn more about Next.js, take a look at the following resources:
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Learn More Tailwind CSS
-- [Tailwind Documentation](https://tailwindcss.com/docs)
+- [Tailwind Documentation](https://tailwindcss.com/docs) - learn about Tailwind css features and style.
