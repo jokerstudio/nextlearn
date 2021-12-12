@@ -17,7 +17,8 @@
 export default function Create() {
     return (
       <>
-        <div>
+        <div className="flex flex-row justify-center">
+          <div className=""></div>
           <div className="mt-10 px-4 sm:mt-10">
             <div className="mt-5 md:mt-0 md:col-span-2">
               <form action="#" method="POST">
@@ -107,12 +108,6 @@ export default function Create() {
                 </div>
               </form>
             </div>
-          </div>
-        </div>
-  
-        <div className="hidden sm:block" aria-hidden="true">
-          <div className="py-5">
-            <div className="border-t border-gray-200" />
           </div>
         </div>
       </>
