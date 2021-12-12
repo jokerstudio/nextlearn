@@ -5,7 +5,7 @@ import ETHLogo from './../public/ethereum-eth-logo.svg'
 
 export default function Home() {
   return (
-    <div>
+    <>
       <main className="mt-24 px-4 sm:mt-32">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">Beautiful digital design assets</h1>
@@ -78,6 +78,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-    </div>
+    </>
   )
 }

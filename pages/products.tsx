@@ -52,7 +52,7 @@ export default function Products({ pageProps }: AppProps) {
                         </div>
                         <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900 space-x-8">
                             <h3>
-                                <Link href="/products/paykit"><span aria-hidden="true" className="absolute inset-0"></span>Paykit</Link>
+                                <Link href="/products/"><a><span aria-hidden="true" className="absolute inset-0"></span>Paykit</a></Link>
                             </h3>
                             <p>$59</p>
                         </div>
@@ -64,7 +64,7 @@ export default function Products({ pageProps }: AppProps) {
                         </div>
                         <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900 space-x-8">
                             <h3>
-                                <Link href="/products/tiers"><span aria-hidden="true" className="absolute inset-0"></span>Tiers</Link>
+                                <Link href="/products/"><a><span aria-hidden="true" className="absolute inset-0"></span>Format</a></Link>
                             </h3>
                             <p>$39</p>
                         </div>
@@ -76,7 +76,7 @@ export default function Products({ pageProps }: AppProps) {
                         </div>
                         <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900 space-x-8">
                             <h3>
-                                <Link href="/products/format"><span aria-hidden="true" className="absolute inset-0"></span>Format</Link>
+                                <Link href="/products/"><a><span aria-hidden="true" className="absolute inset-0"></span>Tear</a></Link>
                             </h3>
                             <p>$19</p>
                         </div>
@@ -88,7 +88,7 @@ export default function Products({ pageProps }: AppProps) {
                         </div>
                         <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900 space-x-8">
                             <h3>
-                                <Link href="/products/unicons"><span aria-hidden="true" className="absolute inset-0"></span>Unicons</Link>
+                                <Link href="/products/"><a><span aria-hidden="true" className="absolute inset-0"></span>Unicorn</a></Link>
                             </h3>
                             <p>$29</p>
                         </div>

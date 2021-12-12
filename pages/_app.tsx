@@ -11,10 +11,12 @@ function MyApp({ Component, pageProps }: AppProps) {
             <div className="flex-1 flex">
 
               <Link href="/">
+                <a>
                 <span className="sr-only">Digital Design Assets</span>
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
                 </svg>
+                </a>
               </Link>
             </div>
             <div className="flex-1 flex items-center justify-end">
@@ -29,9 +31,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           </div>
         </div>
       </header>
-
       <Component {...pageProps} />
-
       <footer className="max-w-7xl mx-auto mt-24 px-4 sm:px-6 sm:mt-32 lg:px-8">
         <div className="py-12 border-t  md:flex md:items-center md:justify-between">
           <div className="flex justify-center space-x-6 md:order-2">
