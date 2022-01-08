@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 
-export default function Example() {
+export default function Profile() {
   return (
     <>
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
